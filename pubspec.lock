@@ -78,10 +78,10 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "247625f1421fb4c4d5106970304b7cfd15b451a2"
+      resolved-ref: a8b34b2c4cc3a876bf0aedfb3364d0944fc26a7b
       url: "https://github.com/iamEtornam/dmrtd.git"
     source: git
-    version: "1.4.3"
+    version: "1.4.4"
   expandable:
     dependency: "direct main"
     description:

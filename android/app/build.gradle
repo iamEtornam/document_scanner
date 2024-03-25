@@ -24,8 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "dev.etornam.passport_reader_app"
-    compileSdk flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
+    compileSdkVersion 34
+    ndkVersion '26.2.11394342'
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -58,6 +58,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    buildToolsVersion '34.0.0'
 }
 
 flutter {
